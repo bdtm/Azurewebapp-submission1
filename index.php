@@ -103,6 +103,7 @@
 			$stmt->bindValue(4, $hbeli);
 			$stmt->bindValue(5, $hjual);
 			$stmt->execute();
+			 header('location:index.php');
 		} catch (Exception $e) {
 			echo "Gagal:" .$e;
 		}
