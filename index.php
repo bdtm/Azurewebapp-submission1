@@ -77,7 +77,7 @@
 	$host ="bdtmserver.database.windows.net";
 	$user ="bdtm";
 	$pass ="Butomo2019";
-	$db ="bdmwebappserver";
+	$db ="bdtmwebappserver";
 
 	try {
 		$conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
