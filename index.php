@@ -63,11 +63,11 @@
 <div id="content" class="form-style">
 	<form method="post" action="index.php" enctype="multipart/form-data">
 	<fieldset><legend>Silahkan Masukan Data Barang</legend>
-	<label for="field1"><span>Kode Barang :</span><input type="text" class="input-field" name="kode" value=""/></label>
-	<label for="field2"><span>Nama Barang :</span><input type="text" class="input-field" name="nama" value=""/></label>
-	<label for="field3"><span>Qty Barang :</span><input type="text" class="input-field" name="qty" value=""/></label>
-	<label for="field4"><span>Harga Beli :</span><input type="text" class="input-field" name="hbeli" value=""/></label>
-	<label for="field5"><span>Harga Jual :</span><input type="text" class="input-field" name="hjual" value=""/></label>
+	<label for="field1"><span>Kode Barang :</span><input type="text" class="input-field" name="kode" id="kode"/></label>
+	<label for="field2"><span>Nama Barang :</span><input type="text" class="input-field" name="nama" id="nama"/></label>
+	<label for="field3"><span>Qty Barang :</span><input type="text" class="input-field" name="qty" id="qty"/></label>
+	<label for="field4"><span>Harga Beli :</span><input type="text" class="input-field" name="hbeli" id="hbeli"/></label>
+	<label for="field5"><span>Harga Jual :</span><input type="text" class="input-field" name="hjual" id="hjual"/></label>
 	<input type="submit" name="submit" value="Submit"></br>
 	<input type="submit" name="load_data" value="Load Data">
 	</fieldset>
