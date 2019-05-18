@@ -104,9 +104,9 @@
 			$stmt->bindValue(5, $hjual);
 			$stmt->execute();
 		} catch (Exception $e) {
-			echo "Gagal" .$e;
+			echo "Gagal:" .$e;
 		}
-		echo "<h3>Input data berhasil!</h3>";
+		echo "<h3>Data berhasil ditambahkan!</h3>";
 	}elseif (isset($_POST['load_data'])) {
 		try {
 			$sql_select = "SELECT * FROM barang";
@@ -129,10 +129,10 @@
 				}
 				echo "</table>";
 			}else {
-				echo "<h3>data belum ada!</h3>";
+				echo "<h3>Belum ada data!</h3>";
 			}
 		} catch (Exception $e) {
-			echo "Gagal" .$e;
+			echo "Gagal:" .$e;
 		}
 	}
 ?>
