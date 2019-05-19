@@ -37,6 +37,7 @@
 		h3{font-size: 1.2em;}
 		table {
 			margin-top: 0.75em;
+			margin-bottom : 0.75em;
 			border-collapse: collapse;
 		}
 		th {font-size: 1em;
@@ -45,10 +46,10 @@
 		 padding-left: 0;
 		}
 		td {
-			padding: 0.30em 2em 0.30em 0em 0.30em; 
+			padding: 0.30em 3em 0.30em 0em 0.30em; 
 			border: none;
 		}
-		#footer{
+		footer{
 			clear: both;
 			position: absolute;
 			height: 50px
