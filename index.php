@@ -126,7 +126,7 @@
 					echo "<td>" .$barang['nama']. "</td>";
 					echo "<td>" .$barang['qty']. "</td>";
 					echo "<td>" .$barang['hbeli']. "</td>";
-					echo "<td>" .$barang['hjual']. "</td><>/tr";
+					echo "<td>" .$barang['hjual']. "</td></tr>";
 				}
 				echo "</table>";
 			}else {
