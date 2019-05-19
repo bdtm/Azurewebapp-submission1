@@ -37,7 +37,7 @@
 		h3{font-size: 1.2em;}
 		table {
 			margin-top: 0.75em;
-			margin-bottom : 0.75em;
+			margin-bottom : 2.75em;
 			border-collapse: collapse;
 		}
 		th {font-size: 1em;
