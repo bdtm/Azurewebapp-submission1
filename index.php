@@ -52,7 +52,7 @@
 		footer{
 			clear: both;
 			position: absolute;
-			height: 50px
+			height: 50px;
 			margin-top:auto;
 			text-align: center;
 		}
